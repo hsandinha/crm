@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: only light;
+  --surface: rgba(255, 255, 255, 0.65);
+  --surface-strong: rgba(255, 255, 255, 0.88);
+}
+
+body {
+  @apply bg-slate-100 text-slate-900 antialiased;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(
+      circle at 20% 20%,
+      rgba(11, 122, 255, 0.18),
+      transparent 45%
+    ),
+    radial-gradient(
+      circle at 80% 10%,
+      rgba(135, 119, 255, 0.2),
+      transparent 50%
+    ),
+    radial-gradient(
+      circle at 50% 90%,
+      rgba(32, 201, 151, 0.18),
+      transparent 45%
+    );
+  pointer-events: none;
+  z-index: -1;
+}
+
+.glass-card {
+  @apply backdrop-blur-xl bg-white/70 border border-white/40 shadow-card;
+}
+
+.section-title {
+  @apply text-sm uppercase tracking-[0.25em] text-slate-500;
+}
