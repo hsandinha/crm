@@ -1,3 +1,20 @@
 {
-  "/(dashboard)/page": "app/(dashboard)/page.js"
+  "/_not-found": "app/_not-found.js",
+  "/(dashboard)/agenda/page": "app/(dashboard)/agenda/page.js",
+  "/(dashboard)/commercial/contacts/page": "app/(dashboard)/commercial/contacts/page.js",
+  "/(dashboard)/commercial/settings/page": "app/(dashboard)/commercial/settings/page.js",
+  "/(dashboard)/commercial/sales/page": "app/(dashboard)/commercial/sales/page.js",
+  "/(dashboard)/commercial/pipeline/page": "app/(dashboard)/commercial/pipeline/page.js",
+  "/(dashboard)/experience/page": "app/(dashboard)/experience/page.js",
+  "/(dashboard)/goals/page": "app/(dashboard)/goals/page.js",
+  "/(dashboard)/page": "app/(dashboard)/page.js",
+  "/(dashboard)/pipeline/page": "app/(dashboard)/pipeline/page.js",
+  "/(dashboard)/leads/page": "app/(dashboard)/leads/page.js",
+  "/(dashboard)/settings/company/page": "app/(dashboard)/settings/company/page.js",
+  "/(dashboard)/settings/page": "app/(dashboard)/settings/page.js",
+  "/(dashboard)/referrals/page": "app/(dashboard)/referrals/page.js",
+  "/(dashboard)/settings/team/page": "app/(dashboard)/settings/team/page.js",
+  "/(dashboard)/settings/transfer/page": "app/(dashboard)/settings/transfer/page.js",
+  "/(dashboard)/settings/profile/page": "app/(dashboard)/settings/profile/page.js",
+  "/(dashboard)/whatsapp/page": "app/(dashboard)/whatsapp/page.js"
 }

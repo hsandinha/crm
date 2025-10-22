@@ -1,3 +1,4 @@
+import type { Route } from "next";
 import {
   Briefcase,
   CalendarCheck,
@@ -11,13 +12,13 @@ import {
 
 export type NavChild = {
   label: string;
-  href: string;
+  href: Route;
   badge?: string;
 };
 
 export type NavSection = {
   label: string;
-  href?: string;
+  href?: Route;
   icon: LucideIcon;
   badge?: string;
   items?: NavChild[];
